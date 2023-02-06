@@ -18,9 +18,8 @@
 * Selecteer Game Development with Unity
 ![VSunity](https://user-images.githubusercontent.com/1262745/216986819-4bc6afe0-9967-4879-80f7-504565016f69.png)
 
-* Installeer de ***Markdown V2*** Extension
+* Installeer de ***Markdown Editor (64-bit)*** Extension
 ![markdown](https://user-images.githubusercontent.com/1262745/216987147-a79b5572-6b4d-472e-9f77-259bb7d7b8c4.png)
-
 
 5. Clone de repo vanuit MS Visual Studio
 
@@ -89,3 +88,5 @@
 17. Ga naar de [***Rigidbody***](https://docs.unity3d.com/ScriptReference/Rigidbody.html) pagina van de Unity scripting manual.
 * Gebruik de methode AddForce() om de ***cube*** te lanceren
 * Doe dit op het moment dat je de [spatie ingedrukt hebt](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html)
+
+18. Laat je Unity scene en je code zien aan de docent!
