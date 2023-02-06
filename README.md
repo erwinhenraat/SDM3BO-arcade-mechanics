@@ -32,6 +32,11 @@ Unity en C# Game Programming
 
 ![unity](https://user-images.githubusercontent.com/1262745/216944716-bf1b346e-4f36-4217-8082-4fb551120f8c.png)
 
+* Verplaats .gitignore file naar root van unity project
+
+![root](https://user-images.githubusercontent.com/1262745/216955006-0ab2f920-f0fe-4754-afb4-96b3933d2016.png)
+
+
 * Create **"Scripts"** folder
 
 ![script folder](https://user-images.githubusercontent.com/1262745/216945944-54b722e5-ff2a-4234-bb5c-6bdef8abd164.png)
