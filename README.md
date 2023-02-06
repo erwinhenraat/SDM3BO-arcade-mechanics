@@ -8,10 +8,9 @@ Unity en C# Game Programming
 
 ![hub](https://user-images.githubusercontent.com/1262745/216940260-3ecdf60a-4cc5-444c-a402-06dd3459728a.png)
 
-* Installeren laatste LTS versie
+* Installeren laatste LTS versie Unity
 
 ![lts](https://user-images.githubusercontent.com/1262745/216939918-3874ba56-e1c3-49fb-8bac-005241182cae.png)
-
 
 * Creeren repo met unity .gitignore
 
