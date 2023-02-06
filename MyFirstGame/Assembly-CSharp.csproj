@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Launch.cs" />
+    <Compile Include="Assets\Scripts\DoCapoera.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

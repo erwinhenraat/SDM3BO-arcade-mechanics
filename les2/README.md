@@ -10,9 +10,32 @@ Als je vast zit vraag je om hulp!
 
 1. Ga naar Mixamo.com en maak een gratis account aan
 
-![Mixamo](../../../Bureaublad/mixamo.png)
+![Mixamo](../tutorial_gfx/mixamo.png)
 
-2. 
+* ***Optioneel*** [kun je deze tutorial volgen](https://youtu.be/8Pk7FI629O8)
 
+2. Selecteer een character
+
+![Character](../tutorial_gfx/character.png)
+
+
+
+3. Selecteer een animatie
+
+4. Download primaire animatie (idle) met skin
+
+5. Selecteer meer animaties en download deze zonder skin
+
+6. zorg voor de juiste import settings in Unity
+   * Model settings:
+  
+
+
+   * Rig settings:
+   * Animation settings
+   * Materials settings
+   * Click op Extract Textures en Materials en sla deze op in je project
+
+7. Sleep je fbx in de scene
 
 18. Laat je Unity scene en je code zien aan de docent!
