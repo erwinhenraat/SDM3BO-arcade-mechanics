@@ -15,9 +15,12 @@
 ![repo](https://user-images.githubusercontent.com/1262745/216939622-9a9d53aa-0eeb-4323-85d8-9bda551a301a.png)
 
 4. Installeer [MS Visual Studion Community 2022](https://visualstudio.microsoft.com/downloads/)
+* Selecteer Game Development with Unity
+![VSunity](https://user-images.githubusercontent.com/1262745/216986819-4bc6afe0-9967-4879-80f7-504565016f69.png)
 
 * Installeer de ***Markdown V2*** Extension
-![Markdown](../../../Bureaublad/markdown.png)
+![markdown](https://user-images.githubusercontent.com/1262745/216987147-a79b5572-6b4d-472e-9f77-259bb7d7b8c4.png)
+
 
 5. Clone de repo vanuit MS Visual Studio
 
@@ -69,7 +72,7 @@
 ![run](https://user-images.githubusercontent.com/1262745/216949259-30d317b7-4d68-410e-ac80-5f6f3b4b8015.png)
 
 
-13. Neem de uitleg over de layout van unity door (Klik op de link):
+13. Neem de uitleg over de layout van unity door (Klik op de onderstaande image):
 
 [![image](https://docs.unity3d.com/uploads/Main/using-editor-window.png)](https://docs.unity3d.com/Manual/UsingTheEditor.html)
 
