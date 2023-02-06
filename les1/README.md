@@ -76,4 +76,16 @@
 
 [![image](https://docs.unity3d.com/uploads/Main/using-editor-window.png)](https://docs.unity3d.com/Manual/UsingTheEditor.html)
 
-14. 
+14. Plaats een ***Plane*** en een ***Cube*** in de ***scene***
+
+![3d](https://user-images.githubusercontent.com/1262745/216987879-0503f333-0bb5-4d58-8db9-d2d1be3c6506.png)
+
+15. Voeg een ***Rigidbody*** component toe aan de ***cube*** via de optie ***add component***
+![addObjectsRigid](https://user-images.githubusercontent.com/1262745/216987955-ef5b1fa3-ec39-450a-bbdc-8cfa085fd289.png)
+
+16. Maak een nieuw ***LaunchCube.cs*** script aan en hang dat aan de ***Cube*** als component. 
+![launch cube](https://user-images.githubusercontent.com/1262745/216988688-58fa601b-c638-4c33-92cc-9e7ef36e3404.png)
+
+17. Ga naar de [***Rigidbody***](https://docs.unity3d.com/ScriptReference/Rigidbody.html) pagina van de Unity scripting manual.
+* Gebruik de methode AddForce() om de ***cube*** te lanceren
+* Doe dit op het moment dat je de [spatie ingedrukt hebt](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html)
