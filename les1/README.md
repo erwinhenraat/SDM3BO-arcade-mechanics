@@ -2,6 +2,11 @@
 
 **Les 1: Ontwikkelomgeving opzetten en Overzicht Unity tools**
 
+Voer de onderstaande stappen uit en laat voor het einde van de les zien hoe ver je bent gekomen.
+Als je klaar bent laat je het ook zien.
+
+Als je vast zit vraag je om hulp!
+
 1. installeer unity HUB
 
 ![hub](https://user-images.githubusercontent.com/1262745/216940260-3ecdf60a-4cc5-444c-a402-06dd3459728a.png)
