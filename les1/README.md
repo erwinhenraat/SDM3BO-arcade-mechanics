@@ -1,4 +1,4 @@
-# SDM3PROG Lesplan
+# SDM3PROG
 **Les 1: Ontwikkelomgeving opzetten en Overzicht Unity tools**
 
 ## Leerdoelen:

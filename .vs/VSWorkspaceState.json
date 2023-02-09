@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\les1",
-    "\\MyFirstGame"
+    "\\les2",
+    "\\MyFirstGame",
+    "\\tutorial_gfx"
   ],
+  "SelectedNode": "\\tutorial_gfx\\patience.png",
   "PreviewInSolutionExplorer": false
 }
