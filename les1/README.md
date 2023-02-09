@@ -1,4 +1,22 @@
-# SDM3PROG - Opdracht Les 1
+# SDM3PROG Lesplan les 1
+Leerdoelen:
+* Jullie weten wat een IDE (integrated development environment) is en kunnen die opzetten voor Unity game projecten
+* Jullie kunnen een unity project opzetten voor de arcade mechanics opdrachten
+* Jullie kunnen simpele game objecten in de scene creeren
+* Jullie kunnen de Rigidbody en Script components aan gameobjecten toevoegen
+* Jullie weten waar je de Unity code reference kunt vinden en hoe je deze zelfsskunt gebruiken als script ondersteuning
+* Jullie kunnen simpele scripts schrijven om gameobjecten te manipuleren
+
+Planning:
+* **10 min.** Uitleg over IDE (docent laat zijn IDE zien)
+  * Unity, VS, github
+* **10 min.** Uitleg over Unity scripting API (klassiekaal door de Unity Scripting API reference heen )
+* **60 min.** In 2 tallen werken aan de onderstaande opdracht
+  * evt. wie wil klassiekaal de opdracht doornemen met de docent
+* **15 min.** 3 groepjes laten zien hoe ver ze zijn gekomen en wat ze hebben gedaan
+* **10 min.** Klassiekaal terugkijken: Wat ging goed en wat was/is lastig
+
+Opdracht Les 1
 
 **Les 1: Ontwikkelomgeving opzetten en Overzicht Unity tools**
 
@@ -94,4 +112,4 @@ Als je vast zit vraag je om hulp!
 * Gebruik de methode AddForce() om de ***cube*** te lanceren
 * Doe dit op het moment dat je de [spatie ingedrukt hebt](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html)
 
-18. Laat je Unity scene en je code zien aan de docent!
+18. Commit en push je werk. Laat je Unity scene, je code en je repository zien aan de docent!
