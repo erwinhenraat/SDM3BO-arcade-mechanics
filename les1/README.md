@@ -1,5 +1,5 @@
 # SDM3PROG
-**Les 1: Ontwikkelomgeving opzetten en Overzicht Unity tools**
+**Les 1: Ontwikkelomgeving opzetten en simpele ***jump*** mechanic**
 
 ## Leerdoelen:
 * Jullie weten wat een IDE (integrated development environment) is en kunnen die opzetten voor Unity game projecten
@@ -21,6 +21,7 @@
 ## Opdracht:
 
 Voer de onderstaande stappen uit en laat voor het einde van de les zien hoe ver je bent gekomen.
+
 Als je klaar bent laat je het ook zien.
 
 Als je vast zit vraag je om hulp!
@@ -37,7 +38,7 @@ Als je vast zit vraag je om hulp!
 
 ![repo](https://user-images.githubusercontent.com/1262745/216939622-9a9d53aa-0eeb-4323-85d8-9bda551a301a.png)
 
-### 4. Installeer [MS Visual Studion Community 2022](https://visualstudio.microsoft.com/downloads/)
+### 4. Indien van toepassing : Installeer [MS Visual Studion Community 2022](https://visualstudio.microsoft.com/downloads/)
 * Selecteer Game Development with Unity
 ![VSunity](https://user-images.githubusercontent.com/1262745/216986819-4bc6afe0-9967-4879-80f7-504565016f69.png)
 
@@ -48,7 +49,7 @@ Als je vast zit vraag je om hulp!
 
 ![clone](https://user-images.githubusercontent.com/1262745/216944643-6c447b9f-e305-4dda-a3aa-47179c79d11b.png)
 
-### 6. Maak een Unity project aan
+### 6. Maak een 3d Unity project aan
 
 ![unityhub](https://user-images.githubusercontent.com/1262745/216937816-a3c0c4ba-9095-4c60-8431-bdf3dff80077.png)
 
@@ -109,7 +110,7 @@ Als je vast zit vraag je om hulp!
 ![launch cube](https://user-images.githubusercontent.com/1262745/216988688-58fa601b-c638-4c33-92cc-9e7ef36e3404.png)
 
 ### 17. Ga naar de [***Rigidbody***](https://docs.unity3d.com/ScriptReference/Rigidbody.html) pagina van de Unity scripting manual.
-* Gebruik de methode AddForce() om de ***cube*** te lanceren
+* Gebruik de methode **AddForce()** om de **cube** te lanceren
 * Doe dit op het moment dat je de [spatie ingedrukt hebt](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html)
 
-### 18. Commit en push je werk. Laat je Unity scene, je code en je repository zien aan de docent!
+### Commit en push je werk. Laat je Unity scene, je code en je repository zien aan de docent!
