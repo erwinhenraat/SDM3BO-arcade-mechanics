@@ -51,9 +51,11 @@ Als je vast zit vraag je om hulp!
 ![Idle Walk](../tutorial_gfx/idleWalk.png)
 ### 3. Check de settings van beide FBX objecten
 ![Settings](../tutorial_gfx/settings.png)
-* Exporteer zo nodig de materials en textures van je model
+
+**Exporteer zo nodig de materials en textures van je model**
 ![Extract](../tutorial_gfx/extract.png)
-* Zet "Loop Time" en "Loop Pose" aan voor je animaties
+
+**Zet "Loop Time" en "Loop Pose" aan voor je animaties**
 ![Loop](../tutorial_gfx/loop.png)
 
 ### 4. Maak een vloer(plane) en een leeg game object voor je player
@@ -84,13 +86,13 @@ Als je vast zit vraag je om hulp!
 ![Rigid Capsule](../tutorial_gfx/rigidCapsule.png)
 
 * Zorg dat de capsule collider de juiste maat en positie heeft
-* Zet ze op je player gameobject en niet op je model
+* Zet ze op je **Player** gameobject en niet op je model
 * Zorg dat de capsule niet kan roteren op de x en z as zodat ie niet om kan vallen
 
 ### 15. Roteer je model 180 graden op de y as
 ![Rotate](../tutorial_gfx/rotate.png)
 
-### 16. Maak een Script met de naam Animate en plaats deze op de model
+### 16. Maak een Script met de naam Animate en plaats deze op je model
 ![Animate Script](../tutorial_gfx/animateScript.png)
 
 ```
