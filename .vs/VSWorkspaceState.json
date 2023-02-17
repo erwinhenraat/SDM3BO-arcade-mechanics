@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\les2"
+    "\\les1",
+    "\\les2",
+    "\\MyFirstGame",
+    "\\MyFirstGame\\Assets",
+    "\\MyFirstGame\\Assets\\Scripts"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\les1\\README.md",
   "PreviewInSolutionExplorer": false
 }
