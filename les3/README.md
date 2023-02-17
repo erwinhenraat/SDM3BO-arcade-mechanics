@@ -2,20 +2,28 @@
 **Les 3: Beweging en besturing van gameobjecten**
 
 ## Leerdoelen:
-* Jullie begrijpen wat een Vector3 is
-* Jullie kunnen werken met de Velocity van een gameobject
-* Jullie kunnen waarden controleren met Debug.Log()
-* Jullie begrijpen waarom snelheden worden vermenigvuldigd met Time.deltaTime
-* Jullie kunnen variabelen in de inspector instelbaar maken
-* Jullie kunnen met de Unity input controller werken
-* Jullie kunnen animaties goed instellen zodat deze goed worden afgespeeld
+* Jullie begrijpen wat een [**Vector2** en **Vector3**](https://cgcookie.com/lessons/understanding-vector-3) is
+* Jullie begrijpen wat een [**Rigidbody**](https://medium.com/eincode/unity-rigidbody-explained-fb208d0f97f3) is
+* Jullie kunnen werken met de [**Velocity**](https://docs.unity3d.com/ScriptReference/Rigidbody-velocity.html) van een rigidbody
+* Jullie kunnen objecten roteren met:[```transform.Rotate();```](https://docs.unity3d.com/ScriptReference/Transform.Rotate.html)
+* Jullie kunnen waarden controleren met:[```Debug.Log();```](https://docs.unity3d.com/ScriptReference/Debug.Log.html)
+* Jullie begrijpen waarom snelheden worden vermenigvuldigd met: [```Time.deltaTime```](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html)
+* Jullie kunnen variabelen in de inspector instelbaar maken met: [```[SerializeField]```](https://docs.unity3d.com/ScriptReference/SerializeField.html)
+* Jullie kunnen met de Unity [**input manager**](https://docs.unity3d.com/Manual/class-InputManager.html) werken
+* Jullie kunnen 3d modellen en animaties goed [importeren](https://docs.unity3d.com/Manual/class-FBXImporter.html) zodat deze goed worden afgespeeld
  
 ## Planning:
-* **10 min.** Uitleg over Vectoren 
+* **5 min.** Hoe ver is iedereen gekomen? handen omhoog.
+* **20 min.** Uitleg over:
   * Vector2
   * Vector3
+  * Rigidbody
   * Velocity
   * Rotation (transform.Rotate())
+  * Debug.Log()
+  * Time.deltaTime
+  * [SerializeField]
+  * Input Manager
 * **5 min.** Demo blokje bewegen 
   * naar voren op de Z as
   * op zij op de X as
@@ -101,9 +109,11 @@ void Update()
     {
 //is de waarde groter dan 0 dan heb je een knop naar boven ingedrukt 
 //Roep de juiste trigger aan!
-        ani.SetTrigger("Walk");
-        ani.ResetTrigger("Idle");
+        ani.SetTrigger("Walk"); 
+//SetTrigger is trigger activeren
+        ani.ResetTrigger("Idle"); 
         ani.ResetTrigger("WalkR");
+//ResetTrigger is Trigger de-activeren
     }
     else if (Input.GetAxis("Vertical") < 0)
     {
@@ -189,5 +199,9 @@ Check in de **Input Manager** (via edit > project settings) welke toetsen van in
 ![Tweak](../tutorial_gfx/tweak.png)
 
 ![Walk Animation](../tutorial_gfx/WalkAnimation.gif)
+
+### 26. Probeer zelf eens een script te schrijven om de een gameobject zonder te roteren over de X- en Z-as te bewegen 
+
+![Movearound](../tutorial_gfx/movearound.gif)
 
 ### Commit en push je werk. Laat je Unity scene, je code en je repository zien aan de docent!
