@@ -11,7 +11,7 @@
 * Jullie kunnen animaties goed instellen zodat deze goed worden afgespeeld
  
 ## Planning:
-* **10 min.** Uitleg over Vector3 
+* **10 min.** Uitleg over Vectoren 
   * Vector2
   * Vector3
   * Velocity
@@ -36,67 +36,158 @@ Als je klaar bent laat je het ook zien.
 Als je vast zit vraag je om hulp!
 
 
-### 1. Download via Mixamo een character met een "idle" en "walk" of "run" animatie
+### 1. Download via Mixamo een character met een "idle" en een "walk" of "run" animatie
+![Run](../tutorial_gfx/Run.gif)
 
-![Mixamo](../tutorial_gfx/mixamo.png)
-
-* ***Optioneel*** [kun je deze tutorial volgen](https://youtu.be/8Pk7FI629O8)
-
-### 2. Selecteer een character
-
-![Character](../tutorial_gfx/character.png)
-
-### 3. Selecteer een animatie
-
-### 4. Download primaire animatie (idle) met skin
-
-### 5. Selecteer meer animaties en download deze zonder skin
-
-### 6. zorg voor de juiste import settings in Unity
-
-* Model settings:
-![Model Settings](../tutorial_gfx/model_settings.png)
-* Rig settings:
-![Rig Settings](../tutorial_gfx/rig_settings.png)
-* Animation settings
-![Animation Settings](../tutorial_gfx/animation_settings.png)
-* Materials settings
-![Materials Settings](../tutorial_gfx/materials_settings.png)
-* Click op Extract Textures en Materials en sla deze op in je project
+### 2. Sla de animaties op in je "Character" folder
+![Idle Walk](../tutorial_gfx/idleWalk.png)
+### 3. Check de settings van beide FBX objecten
+![Settings](../tutorial_gfx/settings.png)
+* Exporteer zo nodig de materials en textures van je model
 ![Extract](../tutorial_gfx/extract.png)
+* Zet "Loop Time" en "Loop Pose" aan voor je animaties
+![Loop](../tutorial_gfx/loop.png)
 
-### 7. Sleep je fbx in de scene
+### 4. Maak een vloer(plane) en een leeg game object voor je player
+![Player](../tutorial_gfx/player.png)
+### 5. Sleep je "Idle" animatie incl. model in je lege Player gameobject
+![Player Drag](../tutorial_gfx/playerDrag.png)
+### 6. Voeg een animator component toe en een animator controller
+![Animator Controller](../tutorial_gfx/animatorController.png)
 
-![To Scene](../tutorial_gfx/toScene.png)
+### 7. Sleep je Idle animatie in de Animator tool
+![Idle](../tutorial_gfx/idle.png)
 
-### 8. Voeg de animator controller toe
-  
-* Maak een Animator Controller aan 
-![Add Animator Controller](../tutorial_gfx/addAnimatorController.png)
-* Selecteer je character in de hierarchy
-![Char Hierarchie](../tutorial_gfx/charHierarchie.png)
-* Selecteer de nieuwe Animator Controller
-![Select Animator Controller](../tutorial_gfx/selectAnimatorController.png)
-   
-### 9. Plaats je animaties in de Animator
+### 8. Sleep de Walk animatie in de Animator tool en maak transitions
+![Idleto Walk](../tutorial_gfx/idletoWalk.png)
 
-* Open het Animator Window
-![Open Animator](../tutorial_gfx/openAnimator.png)
-* Sleep je animaties in het animator window
-![Sleep](../tutorial_gfx/sleep.png)
-* Voeg een trigger toe
-![Trigger](../tutorial_gfx/trigger.png)
-* voeg transitions toe 
-![Transition](../tutorial_gfx/transition.png)
-* zet als condition de trigger
-![Condition](../tutorial_gfx/condition.png)
+### 9. Maak 3 triggers "Walk", "Idle" en "WalkR"
+### 10. Voeg de juiste conditions toe aan je transitions
+### 11. Zet voor je transitions "Has Exit Time" uit
+![Trigger Setup](../tutorial_gfx/triggerSetup.png)
 
-### 10. Maak code om de animatie aan te roepen
-* Hang een nieuw script als component aan je character
-* Gebruik de methode [Animator.SetTrigger("value")](https://docs.unity3d.com/ScriptReference/Animator.SetTrigger.html)
+### 12. dupliceer de walk animation in de animator en zet de Speed op -1
+![Duplicate](../tutorial_gfx/duplicate.png)
+
+### 13. Voeg de transitions toe met de juiste triggers in de conditions
+![Transitions](../tutorial_gfx/transitions.png)
+
+### 14. Voeg een rigidbody en een capsule collider toe aan de player
+![Rigid Capsule](../tutorial_gfx/rigidCapsule.png)
+
+* Zorg dat de capsule collider de juiste maat en positie heeft
+* Zet ze op je player gameobject en niet op je model
+* Zorg dat de capsule niet kan roteren op de x en z as zodat ie niet om kan vallen
+
+### 15. Roteer je model 180 graden op de y as
+![Rotate](../tutorial_gfx/rotate.png)
+
+### 16. Maak een Script met de naam Animate en plaats deze op de model
+![Animate Script](../tutorial_gfx/animateScript.png)
+
+```
+//Maak een variabele aan voor je animator component
+private Animator ani;
+
+void Start()
+{
+//Pak het animator component en sla die op in de variabele
+    ani = GetComponent<Animator>();
+}
+void Update()
+{
+//Check voor verticale input
+    if (Input.GetAxis("Vertical") > 0)
+    {
+//is de waarde groter dan 0 dan heb je een knop naar boven ingedrukt 
+//Roep de juiste trigger aan!
+        ani.SetTrigger("Walk");
+        ani.ResetTrigger("Idle");
+        ani.ResetTrigger("WalkR");
+    }
+    else if (Input.GetAxis("Vertical") < 0)
+    {
+//is de waarde kleiner dan 0 dan heb je een knop naar beneden ingedrukt
+//Roep de juiste trigger aan
+        ani.SetTrigger("WalkR");
+        ani.ResetTrigger("Idle");
+        ani.ResetTrigger("Walk");
+    }
+    else {
+//is de waarde 0 dan heb je niets ingedrukt
+//Roep de juiste trigger aan
+        ani.SetTrigger("Idle");
+        ani.ResetTrigger("Walk");
+        ani.ResetTrigger("WalkR");
+    }
+}
 
 
-### 11. Zorg dat er standaard een idle animatie afspeelt en dat je character iets anders doet als je op een knop drukt.
-![Animation](../tutorial_gfx/Animation.gif)     
+```
+### 17. Test of je animaties werken
+* vooruit == Walk
+* achteruit == WalkR
+* niets == Idle
+
+![Walktest](../tutorial_gfx/walktest.gif)
+
+### 18. Maak nu een BasicMove script en zet deze op je player
+![Basic Move](../tutorial_gfx/basicMove.png)
+
+
+### 19. Maak een variabele voor je beweeg snelheid en rotatie snelheid
+```
+public class MoveBasic : MonoBehaviour
+{
+//Maak 2 variabelen beschikbaar in de inspector
+    [SerializeField]private float speed = 50f;
+    [SerializeField]private float rotSpeed = 50f;
+```
+
+### 20. Maak een variabele voor je rigidbody
+
+```
+//Maak een variabele voor je rigidbody
+    private Rigidbody rb;
+
+```
+
+### 21. Sla de rigidbody van je player op in de variabele met behulp van de methode [GetComponent<>()](https://docs.unity3d.com/ScriptReference/GameObject.GetComponent.html)
+
+```
+void Start()
+{
+    rb = gameObject.GetComponent<Rigidbody>();
+}
+```
+
+
+### 22. Bereken de bewegingssnelheid van je player 
+
+```
+void Update()
+{
+//de input is tussen de -1 en de 1 maal de snelheid maal de frametijd
+    float speed = Time.deltaTime * speed * Input.GetAxis("Vertical");
+```
+Check in de **Input Manager** (via edit > project settings) welke toetsen van invloed zijn op ***Input.GetAxis("vertical");***
+
+![Input Manager](../tutorial_gfx/inputManager.png)
+
+
+### 23. Geef de snelheid door aan de velocity zodat je player gaat bewegen
+```
+    rb.velocity = rb.transform.forward * speed;
+```
+### 24. Zorg ook voor de rotatie van je speler op basis van de input
+```
+    float rot = Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
+    rb.transform.Rotate(new Vector3(0, rot, 0));        
+}
+```
+### 25. Probeer de juiste snelheid voor het bewegen en roteren te vinden
+![Tweak](../tutorial_gfx/tweak.png)
+
+![Walk Animation](../tutorial_gfx/WalkAnimation.gif)
 
 ### Commit en push je werk. Laat je Unity scene, je code en je repository zien aan de docent!
