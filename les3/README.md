@@ -180,7 +180,11 @@ void Start()
 void Update()
 {
 //de input is tussen de -1 en de 1 maal de snelheid maal de frametijd
+<<<<<<< HEAD
     float move = Time.deltaTime * speed * Input.GetAxis("Vertical");
+=======
+    float speed = Time.deltaTime * speed * Input.GetAxis("Vertical");
+>>>>>>> dfaea3bead8100d1f5de7fee43f5da40dd871929
 ```
 Check in de **Input Manager** (via edit > project settings) welke toetsen van invloed zijn op ***Input.GetAxis("vertical");***
 
@@ -189,7 +193,11 @@ Check in de **Input Manager** (via edit > project settings) welke toetsen van in
 
 ### 23. Geef de snelheid door aan de velocity zodat je player gaat bewegen
 ```
+<<<<<<< HEAD
     rb.velocity = rb.transform.forward * move;
+=======
+    rb.velocity = rb.transform.forward * speed;
+>>>>>>> dfaea3bead8100d1f5de7fee43f5da40dd871929
 ```
 ### 24. Zorg ook voor de rotatie van je speler op basis van de input
 ```
