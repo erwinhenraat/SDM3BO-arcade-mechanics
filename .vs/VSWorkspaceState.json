@@ -2,11 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\les2",
+<<<<<<< HEAD
     "\\les3",
     "\\MyFirstGame",
     "\\MyFirstGame\\Assets",
     "\\MyFirstGame\\Assets\\Scripts"
   ],
   "SelectedNode": "\\les3\\README.md",
+=======
+    "\\les3"
+  ],
+>>>>>>> dfaea3bead8100d1f5de7fee43f5da40dd871929
   "PreviewInSolutionExplorer": false
 }
