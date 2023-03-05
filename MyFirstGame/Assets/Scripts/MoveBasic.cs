@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class MoveBasic : MonoBehaviour
 {
-    [SerializeField]private float speed = 50f;
-    [SerializeField]private float rotSpeed = 50f;
-    [SerializeField]private bool rotational = false;
+    [SerializeField]private float speed = 550f;
+    [SerializeField]private float rotSpeed = 150f;
+    private bool rotational = true;
 
     private Rigidbody rb;
 
@@ -18,7 +18,7 @@ public class MoveBasic : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {       
         if (rotational) {
             RotationalMovement();
         }
@@ -30,14 +30,24 @@ public class MoveBasic : MonoBehaviour
                 
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
-        rb.velocity = new Vector3(moveX, rb.velocity.y, moveZ) * Time.deltaTime * speed;
+        rb.velocity = new Vector3(5, rb.velocity.y, 2) * Time.deltaTime * speed;
            
     }
     void RotationalMovement()
     {
-        float move = Time.deltaTime * speed * Input.GetAxis("Vertical");
-        rb.velocity = rb.transform.forward * move;
-        float rot = Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
+        float rot = Input.GetAxisRaw("Horizontal") * rotSpeed * Time.deltaTime;
         rb.transform.Rotate(new Vector3(0, rot, 0));
+
+        float move = Time.deltaTime * speed * Input.GetAxis("Vertical");
+        
+        Vector3 lastVel = rb.velocity;
+        Vector3 newVel = rb.transform.forward * move;
+        newVel.y = lastVel.y;
+        rb.velocity = newVel;
+        
+        //rb.velocity = rb.transform.forward * move;
+
+
+
     }
 }

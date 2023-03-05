@@ -8,7 +8,6 @@
 * Jullie kunnen objecten roteren met:[```transform.Rotate();```](https://docs.unity3d.com/ScriptReference/Transform.Rotate.html)
 * Jullie kunnen waarden controleren met:[```Debug.Log();```](https://docs.unity3d.com/ScriptReference/Debug.Log.html)
 * Jullie begrijpen waarom snelheden worden vermenigvuldigd met: [```Time.deltaTime```](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html)
-* Jullie kunnen variabelen in de inspector instelbaar maken met: [```[SerializeField]```](https://docs.unity3d.com/ScriptReference/SerializeField.html)
 * Jullie kunnen met de Unity [**input manager**](https://docs.unity3d.com/Manual/class-InputManager.html) werken
 * Jullie kunnen 3d modellen en animaties goed [importeren](https://docs.unity3d.com/Manual/class-FBXImporter.html) zodat deze goed worden afgespeeld
  
