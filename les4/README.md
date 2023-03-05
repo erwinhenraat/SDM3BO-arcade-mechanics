@@ -36,16 +36,21 @@ Als je klaar bent laat je het ook zien.
 Als je vast zit vraag je om hulp!
 
 ### Jullie gaan deze les aan de gang om en simpele platformer te bouwen:
+
 ![Platformer](../tutorial_gfx/platformer.gif)
 
 
 ### 1. Maak een nieuwe scene aan: via file > new scene
+
 ![Newscene](../tutorial_gfx/newscene.png)
+
 Kies de basic (built-in) scene
 
 
 ### 2. Maak een level
+
 ![Level](../tutorial_gfx/level.png)
+
 Het level bevat
 * Een plane (vloer)
 * Cubes (platforms)
@@ -53,31 +58,47 @@ Het level bevat
 
 Door de spheres in de cube te slepen in de hierarchy worden ze onderdeel van de cube. Dit heet parenting.
 Ook mijn platforms zijn onderdeel van mijn floor oftewel mijn level.
+
 ![Parenting](../tutorial_gfx/parenting.png)
 
 
 ### 3. Geef je gameobjecten een kleur met eigen materials
 
 * Maak een folder aan voor je Materials
+
 ![Materials](../tutorial_gfx/materials.png)
+
 * Click rechts en selecteer **create > Material**
+
 ![Create Material](../tutorial_gfx/createMaterial.png)
+
 * Geef je materials een naam
+
 ![Name Material](../tutorial_gfx/nameMaterial.png)
+
 * Geef je materials een kleur
+
 ![Color Material](../tutorial_gfx/colorMaterial.png)
+
 * Sleep de materials op je gameobjecten
+
 ![Color Material](../tutorial_gfx/sleepMat.png)
 
 
 ### 4. Zorg dat de Player dit niet kan doen !
+
 ![To Freeze Or Not To Freeze](../tutorial_gfx/toFreezeOrNotToFreeze.gif)
+
 Maar dat hij Op het platform blijft staan tot hij volledig over de rand gaat.
+
 ![To Freeze Or Not To Freeze2](../tutorial_gfx/toFreezeOrNotToFreeze2.gif)
+
 ***Hint: check je Rigidbody*** 
 
 ### 5. Laat je Cube (speler) rondlopen
+
 **Zie les 3 ;)**
+
 ![Zie Les Drie](../tutorial_gfx/zieLesDrie.png)
 
 ### 6. Laat je Cube springen
@@ -97,10 +118,15 @@ public float force = 20f;
 
 
 ### 7. Laat je Cube goed en *bugvrij* springen
+
 **Mogelijk werkt deze nu heel erg crappy!**
+
 ![Crappy Jump](../tutorial_gfx/CrappyJump.gif)
+
 **Schakel dan eens je **Move** script uit!**
+
 ![Close Move](../tutorial_gfx/closeMove.png)
+
 ![Hooray](../tutorial_gfx/hooray.gif)
 
 **Gefeliciteerd! Je hebt een:![Bug](../tutorial_gfx/bug.jpg)** 
@@ -128,7 +154,9 @@ Hierdoor wordt de sprong gecanceled!
 Begrijp je wat er nu gebeurt??!
 
 **Nog een Bug!**
+
 ![Liftoff](../tutorial_gfx/liftoff.gif)
+
 Of eigenlijk heb je nog niet geprogrammeerd dat je maar 1x mag springen totdat je weer bent geland.
 
 * Maak een variabele aan die bijhoudt of je op de grond staat of niet (*welk datatype is hier handig voor? wel of niet op de grond!*) 
@@ -150,12 +178,15 @@ private void OnCollisionEnter(Collision collision)
 ```
 
 * Maak nu in Unity een nieuwe **Tag** aan: **"floor"**
+
 ![New Tag](../tutorial_gfx/newTag.png)
 
 * Geef nu je vloer en al je platforms deze nieuwe tag
+
 ![Choose Tag](../tutorial_gfx/chooseTag.png)
 
 * Test je Game!
+
 ![Test](../tutorial_gfx/test.gif)
 
 ### Commit en push je werk. Laat je Unity scene, je code en je repository zien aan de docent!
