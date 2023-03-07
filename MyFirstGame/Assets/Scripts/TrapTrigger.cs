@@ -7,10 +7,11 @@ public class TrapTrigger : MonoBehaviour
     private bool triggered = false;
     public GameObject ps;
     public float force = 200f;
+    private AudioSource explosionSound;
     // Start is called before the first frame update
     void Start()
     {
-        
+        explosionSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,7 +22,7 @@ public class TrapTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.tag == "Player" ) {
+        if (other.gameObject.tag == "Player" && !triggered) {
 
             triggered = true;
             Rigidbody rb = other.GetComponent<Rigidbody>();
@@ -39,6 +40,7 @@ public class TrapTrigger : MonoBehaviour
             p.transform.position = t.position;
             GameObject.Destroy(p,1);
             
+            explosionSound.Play();
         }
     }
 }
