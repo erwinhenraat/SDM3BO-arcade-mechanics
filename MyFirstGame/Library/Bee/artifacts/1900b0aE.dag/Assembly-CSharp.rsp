@@ -350,6 +350,7 @@
 "Assets/Scripts/Jump.cs"
 "Assets/Scripts/MoveBasic.cs"
 "Assets/Scripts/MoveBlendTree.cs"
+"Assets/Scripts/TrapTrigger.cs"
 -langversion:9.0
 
 /deterministic

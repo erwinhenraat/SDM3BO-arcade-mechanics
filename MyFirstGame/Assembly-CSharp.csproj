@@ -58,9 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MoveBlendTree.cs" />
     <Compile Include="Assets\Scripts\Animate.cs" />
-    <Compile Include="Assets\Scripts\MoveBasic.cs" />
-    <Compile Include="Assets\Scripts\Jump.cs" />
     <Compile Include="Assets\Scripts\FocusOn.cs" />
+    <Compile Include="Assets\Scripts\Jump.cs" />
+    <Compile Include="Assets\Scripts\MoveBasic.cs" />
+    <Compile Include="Assets\Scripts\TrapTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
