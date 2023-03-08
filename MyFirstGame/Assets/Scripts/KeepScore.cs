@@ -22,8 +22,8 @@ public class KeepScore : MonoBehaviour
         
     }
     public void AddScore(int add) {
-        score += add;
-            
+        score += add;  
+        
         scoreField.text = "" + score;
     }
 }

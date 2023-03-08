@@ -13,7 +13,7 @@ Alle opdrachten worden bij de docent afgetekend nadat deze zijn gepushed op je e
 
 **Les 3** : [Beweging en besturing van gameobjecten](https://github.com/erwinhenraat/SDM3PROG/tree/master/les3) 
 
-**Les 4** : [Springen op platforms](https://github.com/erwinhenraat/SDM3PROG/tree/master/les4)
+**Les 4** : [Springen op platforms (& traps)](https://github.com/erwinhenraat/SDM3PROG/tree/master/les4)
 
 **Les 5** : [Verzamelen van pickups en score bijhouden](https://github.com/erwinhenraat/SDM3PROG/tree/master/les5)
 

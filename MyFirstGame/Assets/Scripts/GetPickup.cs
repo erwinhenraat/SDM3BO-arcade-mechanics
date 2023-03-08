@@ -26,7 +26,7 @@ public class GetPickup : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player") {            
             ps.Play();
