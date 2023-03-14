@@ -36,8 +36,9 @@ public class MoveBasic : MonoBehaviour
     void RotationalMovement()
     {
         float rot = Input.GetAxisRaw("Horizontal") * rotSpeed * Time.deltaTime;
-        rb.transform.Rotate(new Vector3(0, rot, 0));
+        transform.Rotate(new Vector3(0, rot, 0));
 
+       
         float move = Time.deltaTime * speed * Input.GetAxis("Vertical");
         
         Vector3 lastVel = rb.velocity;

@@ -17,7 +17,7 @@ public class GetPickup : MonoBehaviour
         ps.Stop();
         r = GetComponent<Renderer>();
 
-        scoreScript = FindAnyObjectByType<KeepScore>();
+        scoreScript = FindObjectOfType<KeepScore>();
     }
 
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class GetPickup : MonoBehaviour
             GameObject.Destroy(gameObject, 0.5f);
 
 
-            scoreScript.AddScore(5);
+            scoreScript.AddScore(50);
 
         }
     }

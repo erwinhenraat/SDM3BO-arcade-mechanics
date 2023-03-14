@@ -19,13 +19,13 @@ public class TrapTrigger : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
 
         if (other.gameObject.tag == "Player" && !triggered) {
 
             triggered = true;
-            Rigidbody rb = other.GetComponent<Rigidbody>();
+            Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
             Transform t = other.transform;           
                                    
             rb.constraints = RigidbodyConstraints.None;
@@ -33,14 +33,14 @@ public class TrapTrigger : MonoBehaviour
             rb.AddExplosionForce(force, new Vector3(t.position.x,t.position.y - 0.6f,t.position.z + 1f), 0f);
             
             //zet controls uit
-            MoveBasic mbScript = other.GetComponentInChildren<MoveBasic>();
+            MoveBasic mbScript = other.gameObject.GetComponent<MoveBasic>();
             mbScript.enabled = false;                     
             
             GameObject p = Instantiate(ps, transform);
             p.transform.position = t.position;
             GameObject.Destroy(p,1);
             
-            explosionSound.Play();
+            if(explosionSound!= null)explosionSound.Play();
         }
     }
 }

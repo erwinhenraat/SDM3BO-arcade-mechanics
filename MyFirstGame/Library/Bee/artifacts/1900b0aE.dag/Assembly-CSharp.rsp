@@ -352,6 +352,8 @@
 "Assets/Scripts/KeepScore.cs"
 "Assets/Scripts/MoveBasic.cs"
 "Assets/Scripts/MoveBlendTree.cs"
+"Assets/Scripts/MoveBullet.cs"
+"Assets/Scripts/Shoot.cs"
 "Assets/Scripts/TrapTrigger.cs"
 -langversion:9.0
 
