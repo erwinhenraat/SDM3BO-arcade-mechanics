@@ -176,7 +176,7 @@ private void OnCollisionEnter(Collision collision)
 ```
     if (Input.GetKeyDown(KeyCode.Space) && onFloor == True)
 ```
-
+<a name="tag">..</a>
 * Maak nu in Unity een nieuwe **Tag** aan: **"floor"**
 
 ![New Tag](../tutorial_gfx/newTag.png)
@@ -317,7 +317,7 @@ Iets op het scherm zetten wat er nog niet is noemen we **"instantieren"** hiervo
 * verwijder het **particle system** na een seconde
 
 ```
-    GameObject.Destroy(p,1);
+    Destroy(p,1);
 ```
 
 ![Explode To Camwith Fire](../tutorial_gfx/explodeToCamwithFire.gif)

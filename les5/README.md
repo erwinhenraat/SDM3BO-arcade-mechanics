@@ -260,7 +260,7 @@ private ParticleSystem ps;
 * Zoek als het spel start naar het **KeepScore** script met de methode [**FindAnyObjectByType()**](https://docs.unity3d.com/ScriptReference/Object.FindAnyObjectByType.html)
 
 ```
-    scoreScript = FindAnyObjectByType<KeepScore>();
+    scoreScript = FindObjectOfType<KeepScore>();
 ```
 
 * Als de speler een **pickup** raakt roep dan de **AddScore()** methode aan

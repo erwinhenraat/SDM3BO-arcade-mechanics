@@ -350,6 +350,7 @@
 "Assets/Scripts/GetPickup.cs"
 "Assets/Scripts/Jump.cs"
 "Assets/Scripts/KeepScore.cs"
+"Assets/Scripts/KillOnHit.cs"
 "Assets/Scripts/MoveBasic.cs"
 "Assets/Scripts/MoveBlendTree.cs"
 "Assets/Scripts/MoveBullet.cs"

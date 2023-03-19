@@ -1150,8 +1150,8 @@ GameObject:
   - component: {fileID: 2300618521742351910}
   - component: {fileID: 5658744287631876953}
   - component: {fileID: 5658744287631876952}
-  - component: {fileID: 1703743788335780223}
   - component: {fileID: 7871684472214560479}
+  - component: {fileID: 6353434860213115977}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -1226,20 +1226,6 @@ CapsuleCollider:
   m_Height: 1.78
   m_Direction: 1
   m_Center: {x: 0.09, y: 0.86, z: 0}
---- !u!114 &1703743788335780223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4775658537494683366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29c185fe0a8a654288ad9990344da5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ps: {fileID: 5189353361147711320, guid: c655f601aeea2614799178c14a2e5c79, type: 3}
-  force: 200
 --- !u!82 &7871684472214560479
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1336,6 +1322,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6353434860213115977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4775658537494683366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e36618fc9c8eb4fa7d931b833e8a4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Plaaayer
+  effect: {fileID: 5189353361147711320, guid: c655f601aeea2614799178c14a2e5c79, type: 3}
 --- !u!1 &5420319994454477719
 GameObject:
   m_ObjectHideFlags: 0

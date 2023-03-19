@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -3294541411064909074}
   - component: {fileID: 6938172334625887889}
   - component: {fileID: 926841818727011625}
+  - component: {fileID: 1154658149772784130}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -4894,8 +4895,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 500
-  effect: {fileID: 5189353361147711320, guid: c655f601aeea2614799178c14a2e5c79, type: 3}
-  audioSource: {fileID: 0}
 --- !u!54 &6938172334625887889
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5008,3 +5007,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1154658149772784130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529187897141889834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e36618fc9c8eb4fa7d931b833e8a4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Enemy
+  effect: {fileID: 5189353361147711320, guid: c655f601aeea2614799178c14a2e5c79, type: 3}
