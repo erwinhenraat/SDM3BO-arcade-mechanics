@@ -249,13 +249,15 @@ private void OnTriggerEnter(Collider coll)
 * Test je game!
 * Werkt het niet? Check of je tags goed zijn
 
+### Commit en push je werk. Laat je Unity scene, je code en je repository zien aan de docent!
+
 ### Bonus: Controleer de ingevoerde tag en geef zelf een error
 
 Typ foutjes zijn zo gemaakt en als je in je **targetTag** een verkeerde tag schrijft die niet bestaat werkt je code niet.
 
 ![Plaaaayer](../tutorial_gfx/plaaaayer.png)
 
-
+![Buggger](../tutorial_gfx/buggger.gif)
 
 Je kunt te verwachten foutjes opvangen en daar jezelf of andere developers die met je code moeten werken voorzien van goede feedback met behulp van [Debug.LogError()](https://docs.unity3d.com/ScriptReference/Debug.LogError.html).
 
@@ -293,9 +295,3 @@ Je kunt te verwachten foutjes opvangen en daar jezelf of andere developers die m
    }
 ```
 
-
-
-
-
-
-### Commit en push je werk. Laat je Unity scene, je code en je repository zien aan de docent!
