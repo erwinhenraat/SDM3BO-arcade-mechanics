@@ -2,8 +2,8 @@
 **Les 6: Schieten en obstakels kapot maken**
 
 ## Leerdoelen:
-* De student een prefab Instantireen vanuit een script
-* De student kan met Destroy() iets verwijderen na een bepaalde tijd
+* De student kan een prefab Instantireen vanuit een script
+* De student kan met **Destroy()** iets verwijderen na een bepaalde tijd
 * De student kan eigenschappen zoals positie en rotatie van een object overnemen naar een ander object
 * De student kan een object, zoals een particle effect, inladen, afspelen en verwijderen
 * De student kan met **OnTriggerEnter()** een actie uitvoeren nadat 2 objecten elkaar raken
@@ -81,7 +81,7 @@ public GameObject prefab;
 
 ![Prefab Var2](../tutorial_gfx/prefabVar2.png)
 
-* Sleep je prefab er gelijk in in unity
+* Sleep je prefab er gelijk in, in de unity inspector
 
 ![Prefab Var](../tutorial_gfx/prefabVar.png)
 
@@ -259,7 +259,7 @@ Typ foutjes zijn zo gemaakt en als je in je **targetTag** een verkeerde tag schr
 
 ![Buggger](../tutorial_gfx/buggger.gif)
 
-Je kunt te verwachten foutjes opvangen en daar jezelf of andere developers die met je code moeten werken voorzien van goede feedback met behulp van [Debug.LogError()](https://docs.unity3d.com/ScriptReference/Debug.LogError.html).
+Je kunt te verwachten foutjes opvangen en jezelf, of andere developers die met je code moeten werken, voorzien van goede feedback. Hiervoor kun je gebruik maken van [Debug.LogError()](https://docs.unity3d.com/ScriptReference/Debug.LogError.html).
 
 ![Log Error](../tutorial_gfx/LogError.png)
 
@@ -277,7 +277,7 @@ Je kunt te verwachten foutjes opvangen en daar jezelf of andere developers die m
     }
 ```
 
-* Check of de via de inspector ingevoerde tag in de lijst zit en dus bestaat
+* Check in de loop of de, via de inspector ingevoerde, tag in de lijst zit en dus bestaat
 
 ```
         if (targetTag == tag) {
