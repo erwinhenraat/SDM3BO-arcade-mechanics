@@ -67,6 +67,9 @@
     <Compile Include="Assets\Scripts\MoveBasic.cs" />
     <Compile Include="Assets\Scripts\KeepScore.cs" />
     <Compile Include="Assets\Scripts\TrapTrigger.cs" />
+    <Compile Include="Assets\Scripts\TriggerAnimation.cs" />
+    <Compile Include="Assets\Scripts\EnemyShootingBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Hearts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

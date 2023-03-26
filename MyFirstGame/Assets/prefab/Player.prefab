@@ -242,6 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1529187897141889834, guid: ca037babda772024aaf9e769d86d299a, type: 3}
+  shootKey: 306
 --- !u!1 &5296443932932318828
 GameObject:
   m_ObjectHideFlags: 0

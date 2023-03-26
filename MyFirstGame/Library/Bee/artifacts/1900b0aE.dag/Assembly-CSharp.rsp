@@ -346,8 +346,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Animate.cs"
+"Assets/Scripts/EnemyShootingBehaviour.cs"
 "Assets/Scripts/FocusOn.cs"
 "Assets/Scripts/GetPickup.cs"
+"Assets/Scripts/Hearts.cs"
 "Assets/Scripts/Jump.cs"
 "Assets/Scripts/KeepScore.cs"
 "Assets/Scripts/KillOnHit.cs"
@@ -356,6 +358,7 @@
 "Assets/Scripts/MoveBullet.cs"
 "Assets/Scripts/Shoot.cs"
 "Assets/Scripts/TrapTrigger.cs"
+"Assets/Scripts/TriggerAnimation.cs"
 -langversion:9.0
 
 /deterministic

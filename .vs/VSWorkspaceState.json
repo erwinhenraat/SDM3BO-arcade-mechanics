@@ -1,13 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\les1",
     "\\les2",
     "\\les3",
     "\\les4",
     "\\les5",
-    "\\les6"
+    "\\les6",
+    "\\les7",
+    "\\MyFirstGame",
+    "\\MyFirstGame\\Assets",
+    "\\MyFirstGame\\Assets\\Scripts"
   ],
-  "SelectedNode": "\\les4\\README.md",
+  "SelectedNode": "\\MyFirstGame\\Assets\\Scripts\\FocusOn.cs",
   "PreviewInSolutionExplorer": false
 }
