@@ -115,7 +115,7 @@ Transform:
   m_GameObject: {fileID: 5296443931735287848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.07, y: 2.4, z: -2.053}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5296443930985026089}
@@ -243,6 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 1529187897141889834, guid: ca037babda772024aaf9e769d86d299a, type: 3}
   shootKey: 306
+  delay: 0
 --- !u!1 &5296443932932318828
 GameObject:
   m_ObjectHideFlags: 0

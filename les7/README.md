@@ -1,5 +1,5 @@
 # SDM3PROG
-**Les 6: Bijhouden van levens en creeren van vijanden**
+**Les 7: Bijhouden van levens en creeren van vijanden**
 
 ## Leerdoelen:
 * De student kan met behulp van coroutines stukken script uitstellen

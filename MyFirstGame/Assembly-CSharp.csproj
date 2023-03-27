@@ -61,15 +61,15 @@
     <Compile Include="Assets\Scripts\Animate.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
     <Compile Include="Assets\Scripts\FocusOn.cs" />
+    <Compile Include="Assets\Scripts\TriggerAnimation.cs" />
+    <Compile Include="Assets\Scripts\Hearts.cs" />
+    <Compile Include="Assets\Scripts\EnemyShootingBehaviour.cs" />
     <Compile Include="Assets\Scripts\MoveBullet.cs" />
     <Compile Include="Assets\Scripts\Jump.cs" />
     <Compile Include="Assets\Scripts\GetPickup.cs" />
     <Compile Include="Assets\Scripts\MoveBasic.cs" />
     <Compile Include="Assets\Scripts\KeepScore.cs" />
     <Compile Include="Assets\Scripts\TrapTrigger.cs" />
-    <Compile Include="Assets\Scripts\TriggerAnimation.cs" />
-    <Compile Include="Assets\Scripts\EnemyShootingBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Hearts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
