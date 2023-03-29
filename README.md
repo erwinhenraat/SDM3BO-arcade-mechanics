@@ -21,7 +21,7 @@ Alle opdrachten worden bij de docent afgetekend nadat deze zijn gepushed op je e
 
 **Les 7** : [Bijhouden van levens en creeeren van vijanden](https://github.com/erwinhenraat/SDM3PROG/tree/master/les7)
 
-**Les 8** : [Verdieping in het springen zonder Rigidbody](https://github.com/erwinhenraat/SDM3PROG/tree/master/les8)
+**Les 8** : [Verdieping in het springen](https://github.com/erwinhenraat/SDM3PROG/tree/master/les8)
 
 ### Beoordeling
 
