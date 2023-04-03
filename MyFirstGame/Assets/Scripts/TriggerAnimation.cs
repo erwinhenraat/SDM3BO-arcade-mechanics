@@ -25,8 +25,10 @@ public class TriggerAnimation : MonoBehaviour
             CallTrigger();
         }        
     }
-    public void CallTrigger()
+    public void CallTrigger(string _triggerName = "")
     {
+        if(_triggerName != "")triggerName= _triggerName;
+
         StartCoroutine(AwaitDelay(delay));
         StartCoroutine(AwaitReset(resetTime));
     }

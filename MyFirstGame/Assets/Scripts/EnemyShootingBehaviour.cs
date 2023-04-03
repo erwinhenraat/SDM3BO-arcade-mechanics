@@ -30,13 +30,15 @@ public class EnemyShootingBehaviour : MonoBehaviour
         Vector3 delta = transform.position - target.position;
 
         if (delta.magnitude < shotRange && !inCooldown) { 
-            shootScript.CallShot();
-            triggerAnimationScript.CallTrigger();
+            shootScript.CallShot("Player");
+            triggerAnimationScript.CallTrigger("Fire");
             inCooldown= true;
             StartCoroutine(Cooldown(coolDownTime));
         }
         
     }
+
+
     private IEnumerator Cooldown(float time) {
         
         yield return new WaitForSeconds(time);

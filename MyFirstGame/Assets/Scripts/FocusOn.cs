@@ -30,7 +30,6 @@ public class FocusOn : MonoBehaviour
             lerpNow = true;
         }
         if (lerpNow){
-            Debug.Log("lerping");
             Vector3 tp = target.position;
             tp.y = transform.position.y;
             transform.position = Vector3.Lerp(transform.position, tp, chaseSpeed);

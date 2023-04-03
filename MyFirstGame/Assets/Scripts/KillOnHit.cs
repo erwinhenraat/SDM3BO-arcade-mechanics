@@ -4,26 +4,24 @@ using System.Collections.Generic;
 using UnityEngine;
 public class KillOnHit : MonoBehaviour
 {
-    public string targetTag;
+    [SerializeField] private string targetTag;
     public GameObject effect;
-
+    
     private AudioSource audioSource;
     private Hearts heartsScript;
+
+    private TriggerAnimation animationScript;
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        bool tagFound = false;        
-        foreach (string tag in UnityEditorInternal.InternalEditorUtility.tags) {
-            if (targetTag == tag) {
-                tagFound = true;
-                break;
-            }
-        }
-        if (!tagFound)
-        {
-            Debug.LogError("TargetTag:" + targetTag + " for `KillOnHit` @ " + gameObject.name + " not found!");
-        }
+        
+        audioSource = GetComponent<AudioSource>();    
+
+      
+    
+    }
+    public void SetTargetTag(string tag) {
+        targetTag= tag;
     }
     private void OnCollisionEnter(Collision coll)
     {
@@ -34,6 +32,8 @@ public class KillOnHit : MonoBehaviour
         handleHit(coll.gameObject);        
     }
     private void handleHit(GameObject other) {
+        if(targetTag==null) Debug.LogError("TargetTag: not set!");
+
         if (other.tag == targetTag)
         {
             GameObject expl = Instantiate(effect);
@@ -48,16 +48,27 @@ public class KillOnHit : MonoBehaviour
                 heartsScript.Lives--;
                 if (heartsScript.Lives == 0)
                 {
-                    Destroy(other, 0.1f);
+                    KillAfter(other, 0.1f);
+                    
                 }
             }
             else {
-                Destroy(other, 0.1f);
+                KillAfter(other, 2f);
+                
+
+               
+
             }
             if (audioSource != null)
             {
                 audioSource.Play();
             }
         }
+    }
+    private void KillAfter(GameObject toKill, float delay){
+        Destroy(toKill, delay);
+
+        animationScript = toKill.GetComponentInChildren<TriggerAnimation>();
+        animationScript.CallTrigger("Die");
     }
 }

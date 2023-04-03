@@ -115,8 +115,8 @@ Transform:
   m_GameObject: {fileID: 5296443931735287848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.07, y: 2.4, z: -2.053}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 0.4, y: 0.3, z: 0.4}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5296443930985026089}
   - {fileID: 5296443932932318829}
@@ -201,7 +201,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &5296443931735287854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1894747a690511f4f9d0169504d5aef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
+  speed: 4
   rotSpeed: 150
 --- !u!114 &5296443931735287849
 MonoBehaviour:
@@ -229,8 +229,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravityJumpScale: 3
-  gravityFallScale: 6
-  jf: 10
+  gravityFallScale: 10
+  jumpHeight: 0.5
 --- !u!114 &5296443931735287856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,6 +246,7 @@ MonoBehaviour:
   prefab: {fileID: 1529187897141889834, guid: ca037babda772024aaf9e769d86d299a, type: 3}
   shootKey: 306
   delay: 0
+  targetTag: Enemy
 --- !u!1 &5296443932932318828
 GameObject:
   m_ObjectHideFlags: 0

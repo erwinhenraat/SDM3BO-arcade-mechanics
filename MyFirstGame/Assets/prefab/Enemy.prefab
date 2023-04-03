@@ -237,9 +237,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa6637576125c57478a5389b5a0947bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1529187897141889834, guid: cabaf6409902dd745a2286657923158d, type: 3}
+  prefab: {fileID: 1529187897141889834, guid: ca037babda772024aaf9e769d86d299a, type: 3}
   shootKey: 13
   delay: 0.45
+  targetTag: 
 --- !u!1001 &1008410243595678462
 PrefabInstance:
   m_ObjectHideFlags: 0
