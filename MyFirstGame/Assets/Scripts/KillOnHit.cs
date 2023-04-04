@@ -15,10 +15,10 @@ public class KillOnHit : MonoBehaviour
     void Start()
     {
         
-        audioSource = GetComponent<AudioSource>();    
+        audioSource = GetComponent<AudioSource>();
+        
 
-      
-    
+
     }
     public void SetTargetTag(string tag) {
         targetTag= tag;
@@ -39,6 +39,10 @@ public class KillOnHit : MonoBehaviour
             GameObject expl = Instantiate(effect);
             expl.transform.position = other.transform.position;
             Destroy(expl, 2f);
+
+            animationScript = other.GetComponent<TriggerAnimation>();
+
+            animationScript.CallTrigger("Die", 0f);
             if (targetTag == "Player")
             {
                 if (heartsScript == null)
@@ -53,6 +57,7 @@ public class KillOnHit : MonoBehaviour
                 }
             }
             else {
+                
                 KillAfter(other, 2f);
                 
 
@@ -68,7 +73,6 @@ public class KillOnHit : MonoBehaviour
     private void KillAfter(GameObject toKill, float delay){
         Destroy(toKill, delay);
 
-        animationScript = toKill.GetComponentInChildren<TriggerAnimation>();
-        animationScript.CallTrigger("Die");
+       
     }
 }

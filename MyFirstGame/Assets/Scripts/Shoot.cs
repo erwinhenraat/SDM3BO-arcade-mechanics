@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,17 +10,32 @@ public class Shoot : MonoBehaviour
     public float delay = 0f;
     [SerializeField] private string targetTag;
 
+    private TriggerAnimation taScript;
+
+    [SerializeField]private Transform origin;
+
+    private void Start()
+    {
+        
+        taScript = GetComponentInChildren<TriggerAnimation>();
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(shootKey)) {
 
-            CallShot(targetTag);                       
+            CallShot();          
+            
         }        
     }
-    public void CallShot(string _targetTag)
-    {
-        Debug.Log("calling shot");
+    public void CallShot(string _targetTag = "Enemy")
+    {   
         targetTag = _targetTag;
+        
+       
+
+        taScript.CallTrigger("Attack");
+
         StartCoroutine(AwaitDelay(delay));
     }
     private IEnumerator AwaitDelay(float time) {      
@@ -29,8 +45,8 @@ public class Shoot : MonoBehaviour
     private void createProjectile() {
         GameObject ob = Instantiate(prefab);
         ob.GetComponent<KillOnHit>().SetTargetTag(targetTag);
-        ob.transform.position = transform.position;
-        ob.transform.rotation = transform.rotation;
+        ob.transform.position = origin.transform.position;
+        ob.transform.rotation = origin.transform.rotation;
         Destroy(ob, 3f);
 
 

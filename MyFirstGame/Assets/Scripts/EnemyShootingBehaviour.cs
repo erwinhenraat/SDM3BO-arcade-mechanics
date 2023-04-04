@@ -18,7 +18,7 @@ public class EnemyShootingBehaviour : MonoBehaviour
     void Start()
     {
         shootScript = GetComponentInChildren<Shoot>();
-        triggerAnimationScript= GetComponentInChildren<TriggerAnimation>();
+        //triggerAnimationScript= GetComponentInChildren<TriggerAnimation>();
     }
 
     // Update is called once per frame
@@ -31,7 +31,7 @@ public class EnemyShootingBehaviour : MonoBehaviour
 
         if (delta.magnitude < shotRange && !inCooldown) { 
             shootScript.CallShot("Player");
-            triggerAnimationScript.CallTrigger("Fire");
+            //triggerAnimationScript.CallTrigger("Fire");
             inCooldown= true;
             StartCoroutine(Cooldown(coolDownTime));
         }

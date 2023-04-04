@@ -9,8 +9,8 @@ public class AnimationBlend : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ani= GetComponent<Animator>();
-        Debug.Log(ani);
+        ani= GetComponentInChildren<Animator>();
+        
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class AnimationBlend : MonoBehaviour
 
         float input = Input.GetAxis("Vertical");
 
-        Debug.Log(input);
+        
         ani.SetFloat("speed", input); 
     }
 }

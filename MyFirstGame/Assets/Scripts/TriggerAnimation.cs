@@ -4,38 +4,42 @@ using UnityEngine;
 
 public class TriggerAnimation : MonoBehaviour
 {
-    public string triggerName;
+    private string triggerName;
     public float delay = 0f;
     public float resetTime;
+
     public KeyCode triggerKey = KeyCode.None;
+    public string triggerOnKeyDown;
 
     private Animator ani;
     private AudioSource aud;
 
+   
     // Start is called before the first frame update
     void Start()
     {
-        ani= GetComponent<Animator>();
-        aud= GetComponent<AudioSource>();
+        ani= GetComponentInChildren<Animator>();
+       
     }
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(triggerKey)) {
-            CallTrigger();
+            CallTrigger(triggerOnKeyDown);
         }        
     }
-    public void CallTrigger(string _triggerName = "")
+    public void CallTrigger(string _triggerName, float _delay = 0f)
     {
-        if(_triggerName != "")triggerName= _triggerName;
-
+        triggerName = _triggerName;
+        delay= _delay;
+        
         StartCoroutine(AwaitDelay(delay));
         StartCoroutine(AwaitReset(resetTime));
     }
     private IEnumerator AwaitDelay(float time) {
         yield return new WaitForSeconds(time);        
         ani.SetTrigger(triggerName);
-        if(aud != null)aud.Play();
+       
     }
     private IEnumerator AwaitReset(float time)
     {

@@ -22,9 +22,11 @@ public class FocusOn : MonoBehaviour
     void Update()
     {
 
-        Vector3 focusPoint = target.position + (target.forward );
+        Vector3 focusPoint = target.position + (target.forward);
 
         transform.LookAt(focusPoint);
+        
+        
         Vector3 dist = transform.position - target.position;
         if (dist.magnitude > chaseDistance) {           
             lerpNow = true;
