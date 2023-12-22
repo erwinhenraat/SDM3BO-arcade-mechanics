@@ -24,27 +24,4 @@ Je moet minimaal 4 van de 8 opdrachten hebben afgetekend. Dit kan via je eindopd
 
 **tutorial 8** : [Verdieping in het springen](https://github.com/erwinhenraat/SDM3PROG/tree/master/les8)
 
-### Beoordeling
-
-Je wordt voor je Beroepsopdracht beoordeeld op de volgende punten:
-
-- Jullie hebben samen minimaal 4 tutorials uitgewerkt en afgetekend
-- De code in jullie prototype bevat minimaal een Array, List of andere vorm van een "collection"
-- Jullie hebben aan het eind van elke BO blok allebei gecommit op je eigen branch in een gezamenlijke repository, zo toon je aan wat je elk BO blok hebt gedaan
-- Jullie hebben aantoonbaar de volgende Unity systemen gebruikt:
-  * De animator controller
-  * Een particle system
-  * Prefabs
-  * de Input manager
-  * Unity Events (voor afspelen geluiden)
-  * De game bevat een eigen gemaakte shader (leer je in de SKIL les)
-- Jullie game bevat minimaal 3 van de volgende mechancs:
-  * lopen en rennen (geanimeerd character 3rd person)
-  * shieten en vernietigen van obstakels / enemies (kogels en impact zijn mooi afgewerkt met effecten en geluiden)
-  * lekker springen (geanimeerd en niet "floaty")
-  * enemies schieten op de speler (netjes afgewerkt met animaties en effecten)
-  * Mooi afgewerkt scoresysteem incl. UI waarbij er dmv effecten aandacht wordt getrokken naar het scorebord
-  * Traps die worden getriggered als de speler deze raakt of langs loopt. inclusief effecten en animaties
-  * Powerups/Pickups systeem waarbij er items opgepakt kunnen worden die zichtbaar een buff voor de speler opleveren. Inclusief effecten op de pickup en om de buff aan te tonen.
-  * Timing systeem, waarbij er een UI is met een timer en de speler binnen de tijd een doel moet bereiken. Incl. effecten als de tijd bijna op is en op is. Het systeem moet spanning creeren.
 
