@@ -1,14 +1,42 @@
-# SDM3BO-arcade-mechanics-tutorials
+# SDM3BO-arcade-mechanics Beroepsopdracht
 
-In deze tutorial serie leren jullie, met behulp van verschillende game development tools kleine losse game mechanics bouwen en programmeren. Deze game mechanics vormen de basis voor het verder uitbouwen van je eigen game voor de beroepsopdracht. 
+In deze beroepsopdracht leren jullie, met behulp van verschillende game development tools kleine losse game mechanics bouwen en programmeren. Deze game mechanics vormen de basis voor het verder uitbouwen van je eigen game mehanics voor de beroepsopdracht. 
 
-Tijdens de BO lessen zal er volop ruimte zijn voor jullie om aan de opdrachten te werken en hier vragen over te stellen. 
+Tijdens de BO lessen zal er volop ruimte zijn voor jullie om aan de opdracht te werken en hier vragen over te stellen. 
 
-De opdrachten doe je individueel en worden bij de docent afgetekend nadat deze zijn gepushed op je eigen Github repository.
+De beroepsopdracht doe je individueel of in 2 tallen en worden bij de docent afgetekend nadat deze zijn gepushed op je eigen Github repository.
 
-Je moet minimaal 4 van de 8 opdrachten hebben afgetekend. Dit kan via je eindopdracht (je BO prototype) of via losse scenes. Zorg ervoor dat je de mechanics zo mooi mogelijk afwerkt door gebruik te maken van 3d assets uit de unity assetstore.
+Je moet minimaal 4 mechanics hebben gebouwd en en afgetekend. Dit kan door verschillende mechanics in een "kleine game" te integreren of via losse scenes. Zorg ervoor dat je de mechanics zo mooi mogelijk afwerkt door gebruik te maken van 3d assets uit de unity assetstore.
 
-Je mag ook zelf een eigen mechanic verzinnen om te maken en die af laten tekenen. Doe dit echter wel in overleg met de docent. De mechanic moet wel uitgebreid en uitdagend genoeg zijn.
+Je mag ook zelf eigen mechanics verzinnen om te maken en die af laten tekenen. Doe dit echter wel in overleg met de docent. De mechanics moeten wel uitgebreid en uitdagend genoeg zijn.
+
+### Beoordeling
+
+Je wordt voor je Beroepsopdracht beoordeeld op de volgende punten:
+
+- Jullie hebben samen minimaal 4 mechanics uitgewerkt en afgetekend (evt via onderstaande tutorials)
+- De code in jullie prototype bevat minimaal een Array, List of andere vorm van een "collection"
+- Jullie hebben aan het eind van elk BO lesblok individueel gecommit op je eigen branch in een gezamenlijke repository, zo toon je aan wat je elk BO blok hebt gedaan
+- Jullie hebben aantoonbaar de volgende Unity systemen gebruikt:
+  * De animator controller
+  * Een particle system
+  * Prefabs
+  * de Input manager
+  * Unity Events (voor afspelen geluiden)
+  * De game bevat een eigen gemaakte shader (leer je in de SKIL les)
+- Jullie game bevat minimaal 4 van de volgende mechancs:
+  * lopen en rennen (geanimeerd character 3rd person)
+  * shieten en vernietigen van obstakels / enemies (kogels en impact zijn mooi afgewerkt met effecten en geluiden)
+  * lekker springen (geanimeerd en niet "floaty")
+  * enemies schieten op de speler (netjes afgewerkt met animaties en effecten)
+  * Mooi afgewerkt scoresysteem incl. UI waarbij er dmv effecten aandacht wordt getrokken naar het scorebord
+  * Traps die worden getriggered als de speler deze raakt of langs loopt. inclusief effecten en animaties
+  * Powerups/Pickups systeem waarbij er items opgepakt kunnen worden die zichtbaar een buff voor de speler opleveren. Inclusief effecten op de pickup en om de buff aan te tonen.
+  * Timing systeem, waarbij er een UI is met een timer en de speler binnen de tijd een doel moet bereiken. Incl. effecten als de tijd bijna op is en op is. Het systeem moet spanning creeren.
+
+
+
+###Mechanic Tutorials
 
 **tutorial 1** : [Ontwikkelomgeving opzetten en simpele ***jump*** mechanic](https://github.com/erwinhenraat/SDM3PROG/tree/master/les1)
 
@@ -25,5 +53,7 @@ Je mag ook zelf een eigen mechanic verzinnen om te maken en die af laten tekenen
 **tutorial 7** : [Bijhouden van levens en creeeren van vijanden](https://github.com/erwinhenraat/SDM3PROG/tree/master/les7)
 
 **tutorial 8** : [Verdieping in het springen](https://github.com/erwinhenraat/SDM3PROG/tree/master/les8)
+
+
 
 
