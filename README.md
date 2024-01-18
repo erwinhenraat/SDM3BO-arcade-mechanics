@@ -4,9 +4,11 @@ In deze tutorial serie leren jullie, met behulp van verschillende game developme
 
 Tijdens de BO lessen zal er volop ruimte zijn voor jullie om aan de opdrachten te werken en hier vragen over te stellen. 
 
-De opdrachten doe je in 2 tallen en worden bij de docent afgetekend nadat deze zijn gepushed op jullie gezamenlijke Github repository.
+De opdrachten doe je individueel en worden bij de docent afgetekend nadat deze zijn gepushed op je eigen Github repository.
 
-Je moet minimaal 4 van de 8 opdrachten hebben afgetekend. Dit kan via je eindopdracht (je BO prototype) of via losse scenes.
+Je moet minimaal 4 van de 8 opdrachten hebben afgetekend. Dit kan via je eindopdracht (je BO prototype) of via losse scenes. Zorg ervoor dat je de mechanics zo mooi mogelijk afwerkt door gebruik te maken van 3d assets uit de unity assetstore.
+
+Je mag ook zelf een eigen mechanic verzinnen om te maken en die af laten tekenen. Doe dit echter wel in overleg met de docent. De mechanic moet wel uitgebreid en uitdagend genoeg zijn.
 
 **tutorial 1** : [Ontwikkelomgeving opzetten en simpele ***jump*** mechanic](https://github.com/erwinhenraat/SDM3PROG/tree/master/les1)
 
