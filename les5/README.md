@@ -1,5 +1,5 @@
-# SDM3PROG
-**Les 5: Verzamelen van pickups en score bijhouden**
+# Tutorial 5
+**Verzamelen van pickups en score bijhouden**
 
 ## Leerdoelen:
 * De student kan een prefab maken en hergebruiken in een scene
