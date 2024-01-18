@@ -42,6 +42,7 @@ public class Jump : MonoBehaviour
     {
         if (jump) {
             //calculate force by exact height [source](https://gamedevbeginner.com/how-to-jump-in-unity-with-or-without-physics/#jump_unity)
+                        
             jf = Mathf.Sqrt(jumpHeight * -2 * (gravityScale* Physics.gravity.y));
             
             jump = false;

@@ -9,7 +9,7 @@ public class EnemyShootingBehaviour : MonoBehaviour
     private TriggerAnimation triggerAnimationScript;
     private bool inCooldown = false;
     
-    public float shotRange = 10f;
+    public float shotRange = 4f;
 
     public float coolDownTime = 1f;
     public Transform target;
@@ -29,7 +29,9 @@ public class EnemyShootingBehaviour : MonoBehaviour
 
         Vector3 delta = transform.position - target.position;
 
-        if (delta.magnitude < shotRange && !inCooldown) { 
+        if (delta.magnitude < shotRange && !inCooldown) {
+            Debug.Log("yo");
+           
             shootScript.CallShot("Player");
             //triggerAnimationScript.CallTrigger("Fire");
             inCooldown= true;

@@ -773,7 +773,7 @@ MonoBehaviour:
   prefab: {fileID: 1529187897141889834, guid: ca037babda772024aaf9e769d86d299a, type: 3}
   shootKey: 13
   delay: 0.45
-  targetTag: Player
+  targetTag: Playerr
   origin: {fileID: 1087414993}
 --- !u!114 &536091385
 MonoBehaviour:
@@ -2517,6 +2517,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 698633913}
+    - target: {fileID: 1482902279, guid: 2c9f35723e728cd4e97898c7bd3cc95f, type: 3}
+      propertyPath: shotRange
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1008410243595678451, guid: 2c9f35723e728cd4e97898c7bd3cc95f, type: 3}
       propertyPath: triggerOnKeyDown
       value: Attack
