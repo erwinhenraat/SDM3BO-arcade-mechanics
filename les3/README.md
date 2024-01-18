@@ -1,5 +1,5 @@
-# SDM3PROG
-**Les 3: Beweging en besturing van gameobjecten**
+# Tutorial 3
+**Beweging en besturing van gameobjecten**
 
 ## Leerdoelen:
 * Jullie begrijpen wat een [**Vector2** en **Vector3**](https://cgcookie.com/lessons/understanding-vector-3) is
