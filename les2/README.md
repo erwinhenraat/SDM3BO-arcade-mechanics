@@ -1,5 +1,5 @@
-# SDM3PROG
-**Les 2: ***mixamo.com*** placeholder animaties aansturen**
+# Tutorial 2
+**Mixamo.com placeholder animaties aansturen**
 
 ## Leerdoelen:
 * Jullie kunnen snel placeholder animaties implementeren
