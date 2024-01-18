@@ -1,5 +1,5 @@
-# SDM3PROG
-**Les 1: Ontwikkelomgeving opzetten en simpele ***jump*** mechanic**
+# SDM3BO
+**Tutorial 1: Ontwikkelomgeving opzetten en simpele ***jump*** mechanic**
 
 ## Leerdoelen:
 * Jullie weten wat een IDE (integrated development environment) is en kunnen die opzetten voor Unity game projecten
@@ -9,16 +9,7 @@
 * Jullie weten waar je de Unity code reference kunt vinden en hoe je deze zelfsskunt gebruiken als script ondersteuning
 * Jullie kunnen simpele scripts schrijven om gameobjecten te manipuleren
 
-## Planning:
-* **10 min.** Uitleg over IDE (docent laat zijn IDE zien)
-  * Unity, VS, github
-* **10 min.** Uitleg over Unity scripting API (klassiekaal door de Unity Scripting API reference heen )
-* **60 min.** In 2 tallen werken aan de onderstaande opdracht
-  * evt. wie wil klassiekaal de opdracht doornemen met de docent
-* **15 min.** 3 groepjes laten zien hoe ver ze zijn gekomen en wat ze hebben gedaan
-* **10 min.** Klassiekaal terugkijken: Wat ging goed en wat was/is lastig
-
-## Opdracht:
+## Stappenplan:
 
 Voer de onderstaande stappen uit en laat voor het einde van de les zien hoe ver je bent gekomen.
 
