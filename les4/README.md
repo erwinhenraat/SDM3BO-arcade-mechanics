@@ -1,5 +1,5 @@
-# SDM3PROG
-**Les 4: Springen op platforms (& traps)**
+# Tutorial 4
+**Springen op platforms (& traps)**
 
 ## Leerdoelen:
 * Jullie kunnen direct de **velocity** Vector manipuleren voor beweging
