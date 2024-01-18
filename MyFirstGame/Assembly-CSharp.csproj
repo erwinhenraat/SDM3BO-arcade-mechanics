@@ -59,10 +59,12 @@
     <Compile Include="Assets\Scripts\AnimationBlend.cs" />
     <Compile Include="Assets\Scripts\MoveBlendTree.cs" />
     <Compile Include="Assets\Scripts\KillOnHit.cs" />
+    <Compile Include="Assets\packages\UrsaAnimation\LOW POLY CUBIC - Goat and Sheep Pack\scripts\AnimationController.cs" />
     <Compile Include="Assets\Scripts\Animate.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
     <Compile Include="Assets\Scripts\FocusOn.cs" />
     <Compile Include="Assets\Scripts\TriggerAnimation.cs" />
+    <Compile Include="Assets\Scripts\DriveAround.cs" />
     <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\Hearts.cs" />
     <Compile Include="Assets\Scripts\EnemyShootingBehaviour.cs" />
@@ -72,8 +74,6 @@
     <Compile Include="Assets\Scripts\MoveBasic.cs" />
     <Compile Include="Assets\Scripts\KeepScore.cs" />
     <Compile Include="Assets\Scripts\TrapTrigger.cs" />
-    <Compile Include="Assets\Scripts\DriveAround.cs" />
-    <Compile Include="Assets\packages\UrsaAnimation\LOW POLY CUBIC - Goat and Sheep Pack\scripts\AnimationController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
