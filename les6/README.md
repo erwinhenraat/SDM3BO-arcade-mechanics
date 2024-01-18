@@ -1,5 +1,5 @@
-# SDM3PROG
-**Les 6: Schieten en obstakels kapot maken**
+# Tutorial 6
+**Schieten en obstakels kapot maken**
 
 ## Leerdoelen:
 * De student kan een prefab Instantireen vanuit een script
