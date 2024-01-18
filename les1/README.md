@@ -1,5 +1,5 @@
-# SDM3BO
-**Tutorial 1: Ontwikkelomgeving opzetten en simpele ***jump*** mechanic**
+# Tutorial 1:
+**Ontwikkelomgeving opzetten en simpele ***jump*** mechanic**
 
 ## Leerdoelen:
 * Jullie weten wat een IDE (integrated development environment) is en kunnen die opzetten voor Unity game projecten
