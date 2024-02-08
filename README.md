@@ -14,19 +14,12 @@ Je mag ook zelf eigen mechanics verzinnen om te maken en die af laten tekenen. D
 
 Je wordt voor je Beroepsopdracht beoordeeld op de volgende punten:
 
-- Jullie hebben samen minimaal 4 mechanics uitgewerkt en afgetekend (evt via onderstaande tutorials)
-- De code in jullie prototype bevat minimaal een Array, List of andere vorm van een "collection"
-- Jullie hebben aan het eind van elk BO lesblok individueel gecommit op je eigen branch in een gezamenlijke repository, zo toon je aan wat je elk BO blok hebt gedaan
-- Jullie hebben aantoonbaar de volgende Unity systemen gebruikt:
-  * De animator controller
-  * Een particle system
-  * Prefabs
-  * de Input manager
-  * Unity Events (voor afspelen geluiden)
-  * De game bevat een eigen gemaakte model met material, shader en texture
-    
-- Jullie game bevat minimaal 4 van de volgende mechancs:
-  * lopen en/of rennen (geanimeerd character 3rd person)
+## Game Development:
+
+* Jullie hebben samen minimaal 4 tutorials uitgewerkt en afgetekend
+* De code in jullie prototype bevat minimaal een Array, List of andere vorm van een "collection"
+* Jullie game bevat minimaal 3 van de volgende mechancs:
+  * lopen of rennen (geanimeerd character 3rd person)
   * shieten en vernietigen van obstakels / enemies (kogels en impact zijn mooi afgewerkt met effecten en geluiden)
   * lekker springen (geanimeerd en niet "floaty")
   * enemies schieten op de speler (netjes afgewerkt met animaties en effecten)
@@ -34,8 +27,43 @@ Je wordt voor je Beroepsopdracht beoordeeld op de volgende punten:
   * Traps die worden getriggered als de speler deze raakt of langs loopt. inclusief effecten en animaties
   * Powerups/Pickups systeem waarbij er items opgepakt kunnen worden die zichtbaar een buff voor de speler opleveren. Inclusief effecten op de pickup en om de buff aan te tonen.
   * Timing systeem, waarbij er een UI is met een timer en de speler binnen de tijd een doel moet bereiken. Incl. effecten als de tijd bijna op is en op is. Het systeem moet spanning creeren.
+ 
+## Game Engines:
 
+Jullie hebben aantoonbaar de volgende Unity systemen gebruikt:
+* De animator controller
+* Een particle system
+* Prefabs
+* de Input manager
+* Unity Events (voor afspelen geluiden).
 
+## Visual Technology:
+
+De game bevat een eigen gemaakte 3d model inclusief shader material unwap en texture (leer je in de SKIL les)
+
+## Game Design & Documentation:
+
+Jullie hebben minimaal 1 mechanic op papier uitgewerkt. dmv een concrete omschrijving en een schets van wat de mechanic moet doen.
+
+## Technical Design & Documentation:
+
+Jullie omschrijven de grootste technische uitdaging waar je tenenaan bent gelopen en stap voor stap hoe je dit uiteindelijk hebt opgelost.
+
+## Functional Design & Documentation:
+
+Jullie hebben werkende game prototypes gemaakt, hiervoor hebben jullie samen minimaal 4 tutorials uitgewerkt en afgetekend.
+
+## Professionaliseren:
+
+Jullie hebben regelmatig vragen gesteld en om hulp gevraagd. Jullie houden je aan de tussentijdse deadlines voor de tutorials.
+
+## Agile werken:
+
+Jullie zijn elke BWP les gestart met een standup waarin je besproken hebt wat je hebt gedaan, wat je gaat doen en waar je hulp bij nodig hebt. Verder hebben jullie in de BWP lessen voor het project SCRUM goed toegepast.
+
+## Versiebeheer:
+
+Jullie hebben aan het eind van elke BO blok beiden zelf gecommit op je eigen branch in een gezamenlijke repository, zo toon je aan wat je elk BO blok hebt gedaan.
 
 ### Mechanic Tutorials
 
