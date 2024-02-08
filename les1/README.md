@@ -11,7 +11,7 @@
 
 ## Stappenplan:
 
-Voer de onderstaande stappen uit en laat voor het einde van de les zien hoe ver je bent gekomen.
+Voer de onderstaande stappen uit en laat voor de les van volgende  les zien hoe ver je bent gekomen.
 
 Als je klaar bent laat je het ook zien.
 
