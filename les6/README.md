@@ -61,7 +61,7 @@ Als je vast zit vraag je om hulp!
 
 ![Bullet Particles Loop](../tutorial_gfx/bulletParticlesLoop.gif)
 
-*Tip: hergebruik je [explosion particle system](../les4/README.md#9.-Bonus:-Maak-een-exploding-trap) als je die hebt gemaakt.*
+*Tip: hergebruik je [explosion particle system](https://youtu.be/cvQiQglPI18?si=y-XN8Xs4AjQ9ck_2) als je die hebt gemaakt.*
 
 * Zorg voor een Rigidbody component
 * Zorg voor een Audio Source component met een explosie geluidje 
