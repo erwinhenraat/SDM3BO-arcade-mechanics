@@ -23,9 +23,10 @@ Je wordt voor je Beroepsopdracht beoordeeld op de volgende punten:
   * Prefabs
   * de Input manager
   * Unity Events (voor afspelen geluiden)
-  * De game bevat een eigen gemaakte shader (leer je in de SKIL les)
+  * De game bevat een eigen gemaakte model met material, shader en texture
+    
 - Jullie game bevat minimaal 4 van de volgende mechancs:
-  * lopen en rennen (geanimeerd character 3rd person)
+  * lopen en/of rennen (geanimeerd character 3rd person)
   * shieten en vernietigen van obstakels / enemies (kogels en impact zijn mooi afgewerkt met effecten en geluiden)
   * lekker springen (geanimeerd en niet "floaty")
   * enemies schieten op de speler (netjes afgewerkt met animaties en effecten)
