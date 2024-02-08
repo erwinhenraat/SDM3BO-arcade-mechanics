@@ -6,9 +6,9 @@ Tijdens de BO lessen zal er volop ruimte zijn voor jullie om aan de opdracht te 
 
 De beroepsopdracht doe je individueel of in 2 tallen en worden bij de docent afgetekend nadat deze zijn gepushed op je eigen Github repository.
 
-Je moet minimaal 4 mechanics hebben gebouwd en en afgetekend. Dit kan door verschillende mechanics in een "kleine game" te integreren of via losse scenes. Zorg ervoor dat je de mechanics zo mooi mogelijk afwerkt door gebruik te maken van 3d assets uit de unity assetstore.
+Je moet minimaal 4 tutorials hebben gevolgd en uitgewerkt tot een prototype. 3 verschillende mechanics verwerk je tot een "kleine game". Zorg ervoor dat je de mechanics zo mooi mogelijk afwerkt door gebruik te maken van 3d assets uit de unity assetstore en eigen gemaakte 3d assets.
 
-Je mag ook zelf eigen mechanics verzinnen om te maken en die af laten tekenen. Doe dit echter wel in overleg met de docent. De mechanics moeten wel uitgebreid en uitdagend genoeg zijn.
+Naast de hieronder genoemde mechanics mag je ook zelf eigen mechanics verzinnen om te maken en die af laten tekenen. Doe dit echter wel in overleg met de docent. De mechanics moeten wel uitgebreid en uitdagend genoeg zijn.
 
 ### Beoordeling
 
