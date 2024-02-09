@@ -1,14 +1,15 @@
 # SDM3BO-arcade-mechanics Beroepsopdracht
 
-In deze beroepsopdracht leren jullie, met behulp van verschillende game development tools kleine losse game mechanics bouwen en programmeren. Deze game mechanics vormen de basis voor het verder uitbouwen van je eigen game mehanics voor de beroepsopdracht. 
+In deze beroepsopdracht leren jullie, met behulp van verschillende game development tools kleine losse game mechanics bouwen en programmeren. Deze game mechanics vormen de basis voor het verder uitbouwen van je eigen game mehanics tot een simpele game voor de beroepsopdracht. 
 
 Tijdens de BO lessen zal er volop ruimte zijn voor jullie om aan de opdracht te werken en hier vragen over te stellen. 
 
-De beroepsopdracht doe je individueel of in 2 tallen en worden bij de docent afgetekend nadat deze zijn gepushed op je eigen Github repository.
+De beroepsopdracht doe je in 2 tallen en de mechanics worden bij de docenten afgetekend nadat deze zijn gepushed op jullie eigen Github repository. Ieder werkt hierbij in een eigen branch. Iedere 2 weken moet je minimaal 1 mechanic af hebben of een huiswerk tutorial hebben afgerond.
 
-Je moet minimaal 4 tutorials hebben gevolgd en uitgewerkt tot een prototype. 3 verschillende mechanics verwerk je tot een "kleine game". Zorg ervoor dat je de mechanics zo mooi mogelijk afwerkt door gebruik te maken van 3d assets uit de unity assetstore en eigen gemaakte 3d assets.
+Je moet minimaal 4 van de onderstaande tutorials hebben gevolgd en uitgewerkt tot een prototype. 3 verschillende mechanics, uit de tutorials of zelf bedacht, verwerk je tot een "kleine game". Zorg ervoor dat je de mechanics zo mooi mogelijk afwerkt door gebruik te maken van 3d assets uit de unity assetstore i.c.m eigen gemaakte 3d assets (uit de 3D lessen).
 
-Naast de hieronder genoemde mechanics mag je ook zelf eigen mechanics verzinnen om te maken en die af laten tekenen. Doe dit echter wel in overleg met de docent. De mechanics moeten wel uitgebreid en uitdagend genoeg zijn.
+Naast de voorgestelde mechanics uit de lijst mag je ook zelf eigen mechanics verzinnen om te maken en die af laten tekenen. Doe dit echter wel in overleg met de docent. De mechanics moeten wel uitgebreid en uitdagend genoeg zijn en ook weer niet te complex en moeilijk.
+
 
 ### Beoordeling
 
@@ -64,6 +65,26 @@ Jullie zijn elke BWP les gestart met een standup waarin je besproken hebt wat je
 ## Versiebeheer:
 
 Jullie hebben aan het eind van elke BO blok beiden zelf gecommit op je eigen branch in een gezamenlijke repository, zo toon je aan wat je elk BO blok hebt gedaan.
+
+
+## Deadlines:
+# vr 1 mrt:
+1e tutorial of eigen mechanic af? in eigen branches gecommit en op github? afgewerkt met minimaal 3d art van assetstore of mixamo.
+
+# vr. 15 mrt:
+ * 2e tutorial of eigen mechanic af? in eigen branches gecommit en op github? afgewerkt met minimaal 3d art van assetstore of mixamo.
+ * Minimaal 1 mechanic op papier uitgewerkt. dmv een concrete omschrijving en een schets van wat de mechanic moet doen. Dit zet je op je **Readme**.
+
+# vr. 29 mrt:
+3e tutorial of eigen mechanic af? in eigen branches gecommit en op github? afgewerkt met minimaal 3d art van assetstore of mixamo.
+   
+# vr. 12 apr:
+4 tutorial of eigen mechanic af? in eigen branches gecommit en op github? afgewerkt met minimaal 3d art van assetstore of mixamo.
+
+# Vr. 19 apr:
+ * 3 mechanics uitgewerkt tot een complete game. Met een gameloop, 3d art , animaties,  particles, geluiden, prefabs
+ * Omschrijving op je **Readme** van grootste technische uitdaging waar je tenenaan bent gelopen en stap voor stap hoe je dit uiteindelijk hebt opgelost.
+
 
 ### Mechanic Tutorials
 
