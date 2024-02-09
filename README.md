@@ -1,6 +1,6 @@
 # SDM3BO-arcade-mechanics Beroepsopdracht
 
-In deze beroepsopdracht leren jullie, met behulp van verschillende game development tools kleine losse game mechanics bouwen en programmeren. Deze game mechanics vormen de basis voor het verder uitbouwen van je eigen game mehanics tot een simpele game voor de beroepsopdracht. 
+In deze beroepsopdracht leren jullie, met behulp van verschillende game development tools (voornamelijk binnen Unity) kleine losse game mechanics bouwen en programmeren. Deze game mechanics vormen de basis voor het verder uitbouwen van je eigen game mehanics tot een simpele game voor de beroepsopdracht. 
 
 Tijdens de BO lessen zal er volop ruimte zijn voor jullie om aan de opdracht te werken en hier vragen over te stellen. 
 
