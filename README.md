@@ -1,3 +1,5 @@
+![img](https://image.api.playstation.com/vulcan/ap/rnd/202206/2809/waPttoYkdfwurJKxJYqY1SEf.jpg)
+
 # SDM3BO-arcade-mechanics Beroepsopdracht
 
 In deze beroepsopdracht leren jullie, met behulp van verschillende game development tools (voornamelijk binnen Unity) kleine losse game mechanics bouwen en programmeren. Deze game mechanics vormen de basis voor het verder uitbouwen van je eigen game mehanics tot een simpele game voor de beroepsopdracht. 
